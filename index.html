@@ -10,19 +10,54 @@
     
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        div.font{
+            font-size: 3rem;
+        }
+
+        div.fonttwo{
+            font-size: 3rem;
+        }
+
+        div.fontthree{
+            font-size: 1.5rem;
+        }
+
+        button.size{
+            font-size: 1.1rem;
+        }
+        @media only screen and (max-width: 991px) {
+            div.font{
+            font-size: 2rem;
+            }
+
+            div.fonttwo{
+            font-size: 2.2rem;
+            }
+
+            div.fontthree{
+            font-size: 0.9rem;
+            }
+
+            button.size{
+            font-size: 0.7rem;
+            }
+        }
+    </style>
 </head>
 <body class="m-0 p-0">
     <div style="height: 100vh; width:100%;" 
          class="row m-0 p-0">
         <div class="col-7 ps-5">
-            <div class="display-5 ms-5" 
+            <div class="display-5 ms-5 font" 
                  style="color: #1A3650 ; 
                         font-family: fantasy; 
                         text-align: left; 
                         padding-top: 30vh;"> 
                             Hello
             </div>
-            <div class="display-3 ms-5" 
+            <div class="display-3 ms-5 fonttwo" 
                  style="color: #1A3650 ; 
                         font-family: sans-serif; 
                         text-align: left;
@@ -30,20 +65,19 @@
                             I am Tvisha<br>
                             Sanghvi
             </div>
-            <div class="ms-5" 
+            <div class="ms-5 fontthree" 
                  style="color: #1A3650 ; 
                         font-family: sans-serif; 
                         text-align: left;
                         padding-top: 1vh;
-                        padding-bottom: 4vh;
-                        font-size: large;">
+                        padding-bottom: 4vh;">
                             I AM AN UNDERGRAD<br>
                             COMMUNICATION DESIGN STUDENT
             </div>
             
             <a href="./HTML/mainpage.html">
                 <button type="button" 
-                        class="ms-5 btn btn-outline-dark">
+                        class="ms-5 btn btn-outline-dark size">
                             KNOW ME MORE
                 </button>
             </a>
