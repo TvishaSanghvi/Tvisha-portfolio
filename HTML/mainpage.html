@@ -11,19 +11,111 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/ceeddd1bbd.js" crossorigin="anonymous"></script>
+
+    <style>
+        h2.firstsub {
+            margin-top: 0px;
+        }
+        
+        h2.size{
+            font-size: 2rem;
+        }
+
+        a.fsize{
+            font-size: 1rem ;
+        }
+
+        h3.fosize{
+            font-size: 1.3rem;
+        }
+
+        p.tsize{
+            font-size: 1rem;
+        }
+
+        u.qsize{
+            font-size: 2rem;
+        }
+
+        button.bsize{
+            font-size: 0.8rem;
+        }
+
+        label.lsize{
+            font-size: 1rem;
+        }
+
+        div.width{
+            width: 50%;
+        }
+
+        div.margin{
+            padding-top: 0%;
+        }
+
+        input.isize{
+            font-size: 1rem;
+        }
+
+        @media only screen and (max-width: 991px) {
+             h2.firstsub {
+            margin-top: 40px;
+            }
+
+            h2.size{
+            font-size: 1rem;
+            }
+
+            a.fsize{
+            font-size: 0.6rem ;
+            }
+
+            h3.fosize{
+            font-size: 0.9rem;
+            }
+
+            p.tsize{
+            font-size: 0.7rem;
+            }
+
+            u.qsize{
+            font-size: 1.2rem;
+            }
+
+            button.bsize{
+            font-size: 0.4rem;
+            }
+
+            label.lsize{
+            font-size: 0.7rem;
+            }
+
+            div.width{
+            width: 100%;
+            }
+
+            div.margin{
+            padding-top: 20%;
+            }
+
+            input.isize{
+            font-size: 0.7rem;
+            }
+        }
+    </style>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" class="m-0 p-0">
 
     <!-- navbar -->
     <div class="row">
-        <nav class="navbar navbar-expand-sm navbar-dark fixed-top" 
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" 
             style="background-color:rgb(75, 95, 71);">
 
             <!-- navbar brand -->
             <div class="col-6">
-            <a class="navbar-brand ps-3" 
-                href="../index.html" 
+            <a class="navbar-brand ps-3 fsize" 
+                href="../Index.html" 
                 style="font-family:sans-serif; 
                         font-size: medium;">
                     TVISHA SANGHVI
@@ -35,20 +127,20 @@
             <!-- navbar items -->
             <div class="container-fluid col-3">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" 
+                    <li class="nav-item ps-4">
+                        <a class="nav-link fsize" 
                             href="#section1">
                                 WORK
                         </a>
                     </li>
                     <li class="nav-item ps-4">
-                        <a class="nav-link" 
+                        <a class="nav-link fsize" 
                             href="#section2">
                                 ABOUT
                         </a>
                     </li>
                     <li class="nav-item ps-4">
-                        <a class="nav-link" 
+                        <a class="nav-link fsize" 
                             href="#section3">
                                 CONTACT
                         </a>
@@ -66,21 +158,20 @@
         <br>
 
         <!-- history of design -->
-        <h2 style="font-family:fantasy;">
+        <h2 style="font-family:fantasy;" class="firstsub size">
             History of Design</h2>
         <br>
-        <p>History of Design as a class taught us about different art movements from 1850 to 2000
+        <p class="tsize">History of Design as a class taught us about different art movements from 1850 to 2000
            which then required us to make a product poster inspired by the movements.</p>
-        <br>
-        <h3>Wine Posters</h3>
-        <p>I created wine labels on different art movements and these are some of them- Romanticism, 
+        <h3 class="fosize">Wine Posters</h3>
+        <p class="tsize">I created wine labels on different art movements and these are some of them- Romanticism, 
         Cubism, Art Nouveau and Art Deco.</p>
 
             <!-- Carousel -->
             <div id="hod" 
                  class="carousel slide p-2" 
                  data-bs-ride="carousel" 
-                 style="background-color: #1A3650; height: 90vh;">
+                 style="background-color: #1A3650; height: 50vw;">
             
                     <!-- Indicators/dots -->
                     <div class="carousel-indicators">
@@ -99,10 +190,12 @@
                                 <img src="../IMAGES/ROMANTICISM.jpeg" 
                                     alt="Romanticism" 
                                     class="d-block mx-auto my-auto mt-3"
-                                    style="height: 80vh;">
+                                    style="width: 100%;">
                                 </div>
-                                <div class="col-6 text-light align-content-center mx-auto my-auto ps-5"> 
-                                    <h5>ROMANTICISM POSTER</h5>
+                                <div class="col-6 text-light align-content-center mx-auto my-auto ps-3"
+                                     style="font-size:1vw ;"> 
+                                    <h5 style="font-size: 2vw ;">ROMANTICISM POSTER</h5>
+                                    <p></p>
                                     <p>The background print shows 'celebration of nature',<br>
                                         a key characteristic of Romanticism Period.<br>
                                         The painting is the middle is 'The Titan's Goblet' <br>
@@ -119,10 +212,11 @@
                                 <img src="../IMAGES/CUBISMPOSTER.png" 
                                     alt="Cubism" 
                                     class="d-block mx-auto my-auto mt-3" 
-                                    style="height: 80vh;">
+                                    style="width: 100%">
                                 </div>
-                                <div class="col-6 text-light align-content-center mx-auto my-auto ps-5">
-                                    <h5>CUBISM POSTER</h5>
+                                <div class="col-6 text-light align-content-center mx-auto my-auto ps-3"
+                                     style="font-size:1vw ;">
+                                    <h5 style="font-size: 2vw ;">CUBISM POSTER</h5>
                                     <p>The background is a painting by Piet Mondrain called<br>
                                         'The Gray Tree'. I created the wine glass in the middle<br>
                                         trying to show modern cubism art. The grapes on the <br>
@@ -138,10 +232,11 @@
                                 <img src="../IMAGES/ARTNOUVEAU.png" 
                                     alt="Art nouveau" 
                                     class="d-block mx-auto my-auto mt-3" 
-                                    style="height: 80vh;">
+                                    style="width: 100%">
                                 </div>
-                                <div class="col-6 text-light align-content-center mx-auto my-auto ps-5">
-                                    <h5>ART NOUVEAU POSTER</h5>
+                                <div class="col-6 text-light align-content-center mx-auto my-auto ps-3"
+                                    style="font-size: 1vw">
+                                    <h5 style="font-size: 2vw ;">ART NOUVEAU POSTER</h5>
                                     <p>The background print is inspired by the flow<br>
                                         which is seen in many artworks of this period,<br>
                                         usually as hairs or on frame. The female in the<br> 
@@ -159,10 +254,11 @@
                                 <img src="../IMAGES/ARTDECO.png" 
                                     alt="Art Deco" 
                                     class="d-block mx-auto my-auto mt-3" 
-                                    style="height: 80vh;">
+                                    style="width: 100%">
                                 </div>
-                                <div class="col-6 text-light align-content-center mx-auto my-auto ps-5">
-                                    <h5>ART DECO POSTER</h5>
+                                <div class="col-6 text-light align-content-center mx-auto my-auto ps-3"
+                                     style="font-size:1vw ;">
+                                    <h5 style="font-size: 2vw ;">ART DECO POSTER</h5>
                                     <p>The background print is inspired by the modern<br> 
                                         art deco prints. The man illustrated is inspired by<br>
                                         the posters of the movement, specifically from a perfume<br>
@@ -194,19 +290,19 @@
             <br>
 
         <!-- corelabs typography -->
-        <h2 style="font-family:fantasy;">
+        <h2 style="font-family:fantasy;" class="size">
             CoreLabs Typography</h2>
         <br>
-        <p>CoreLabs Typography class was all about theory relating to typography and implementation of it in small projects.</p>
-        <br>
-        <h3>The Selfie Project</h3>
-        <p>
+        <p class="tsize">CoreLabs Typography class was all about theory relating to typography and 
+            implementation of it in small projects.</p>
+        <h3 class="fosize">The Selfie Project</h3>
+        <p class="tsize">
         Selfie Project required us to design a newsletter to find our North Star by answering the provided<br>
-        questions and putting them in the newsletter. 
+        questions and putting them in the newsletter. It is a four-sided A3 Newsletter that is based on finding my North star.
         </p>
 
             <!-- Carousel -->
-            <div id="typo" class="carousel slide p-2" data-bs-ride="carousel" style="background-color: #1A3650; height: 90vh;">
+            <div id="typo" class="carousel slide p-2" data-bs-ride="carousel" style="background-color: #1A3650; height: 50vw;">
             
                 <!-- Indicators/dots -->
                 <div class="carousel-indicators">
@@ -222,10 +318,11 @@
                             <div class="col-2"></div>
                             <div class="col-4">
                                 <img src="../IMAGES/theselfiefront.png" alt="Front" class="d-block mx-auto my-auto mt-3"
-                                    style="height: 80vh;">
+                                    style="width: 100%;">
                             </div>
-                            <div class="col-6 text-light align-content-center mx-auto my-auto ps-5">
-                                <h5>ROMANTICISM POSTER</h5>
+                            <div class="col-6 text-light align-content-center mx-auto my-auto ps-3"
+                                style="font-size:1vw ;">
+                                <h5 style="font-size: 2vw ;">FIRST PAGE</h5>
                                 <p>The background print shows 'celebration of nature',<br>
                                     a key characteristic of Romanticism Period.<br>
                                     The painting is the middle is 'The Titan's Goblet' <br>
@@ -237,12 +334,13 @@
                 
                     <div class="carousel-item">
                         <div class="row pt-5">
-                            <div class="col-7 mt-5" style="padding-left: 10%;">
+                            <div class="col-7" style="padding-left: 10%;">
                                 <img src="../IMAGES/theselfiemiddle.png" alt="Middle" class="d-block mx-auto my-auto"
-                                    style="height: 60vh;">
+                                    style="width: 100%;">
                             </div>
-                            <div class="col-5 text-light align-content-center mx-auto my-auto ps-5">
-                                <h5>CUBISM POSTER</h5>
+                            <div class="col-5 text-light align-content-center mx-auto my-auto ps-3"
+                                style="font-size:1vw ;">
+                                <h5 style="font-size: 2vw ;">MIDDLE SPREAD</h5>
                                 <p>The background is a painting by Piet Mondrain called<br>
                                     'The Gray Tree'. I created the wine glass in the middle<br>
                                     trying to show modern cubism art. The grapes on the <br>
@@ -257,10 +355,11 @@
                             <div class="col-2"></div>
                             <div class="col-4">
                                 <img src="../IMAGES/theselfieback.png" alt="Back" class="d-block mx-auto my-auto mt-3"
-                                    style="height: 80vh;">
+                                    style="width: 100%;">
                             </div>
-                            <div class="col-6 text-light align-content-center mx-auto my-auto ps-5">
-                                <h5>ART NOUVEAU POSTER</h5>
+                            <div class="col-6 text-light align-content-center mx-auto my-auto ps-3"
+                                style="font-size:1vw ;">
+                                <h5 style="font-size: 2vw ;">LAST PAGE</h5>
                                 <p>The background print is inspired by the flow<br>
                                     which is seen in many artworks of this period,<br>
                                     usually as hairs or on frame. The female in the<br>
@@ -287,117 +386,159 @@
                             <span class="carousel-control-next-icon"></span>
                 </button>
             </div>
-                
-            <!-- corelabs text -->
-            <div class="container-fluid mt-3">
-                <h5>THE SELFIE NEWSLETTER</h5>
-                <p>A four-sided A3 Newsletter that is based on finding my North star.
-                First page- A name that relates to me. Sirius means the brighest 'star'. My name is Tvisha which<br>
-                means 'Bright' and also Sirius is the godfather of Harry Potter, my favourite series. And a text <br>
-                on a movie that influenced me in my younger years.<br>
-                Middle spread- Answering few questions that ultimately helped me find me my north star (something I want to do<br> 
-                and strongly believe in). The polaroids depict memories and people that made me who I am today.<br>
-                Last page- A self-clicked visual that shows something about me.</p>
-            </div>
+            <br>
+            <hr>
             <br>
             <br>
 
         <!-- indian Aesthetics -->
-        <h1 style="font-family:fantasy ;">
-            Indian Aesthetics</h1>
+        <h2 style="font-family:fantasy;" class="size">
+            Indian Aesthetics</h2>
         <br>
-        <h3>Indian Art Posters</h3>
-        <p>I chose a brand and created campaigns posters for the brand on various social causes using inspiration
+        <p class="tsize">Indian Aesthetics class was all about understanding different Indian artforms, their characteristics 
+            and their application in design.</p>
+        <br>
+        <h3 class="fosize">Indian Art Posters</h3>
+        <p class="tsize">I chose a brand and created campaigns posters for the brand on various social causes using inspiration
         from Indian art forms.</p>
 
             <!-- Carousel -->
-            <div id="ia" class="carousel slide p-2" data-bs-ride="carousel" style="background-color: #1A3650;">
+            <div id="ia" 
+                 class="carousel slide p-2" 
+                 data-bs-ride="carousel" 
+                 style="background-color: #1A3650; height: 50vw;">
             
-                <!-- Indicators/dots -->
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#ia" data-bs-slide-to="0" class="active"></button>
-                    <button type="button" data-bs-target="#ia" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#ia" data-bs-slide-to="2"></button>
-                    <button type="button" data-bs-target="#ia" data-bs-slide-to="3"></button>
-                </div>
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#ia" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#ia" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#ia" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#ia" data-bs-slide-to="3"></button>
+                    </div>
+                
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-2"></div>
+                                <div class="col-4">
+                                <img src="../IMAGES/IAPOSTER1.png" 
+                                    alt="Kalamkari" 
+                                    class="d-block mx-auto my-auto mt-3"
+                                    style="width: 100%;">
+                                </div>
+                                <div class="col-6 text-light align-content-center mx-auto my-auto ps-3"
+                                     style="font-size:1vw ;"> 
+                                    <h5 style="font-size: 2vw ;">KALAMKARI</h5>
+                                    <p></p>
+                                    <p>Social Cause: Save Trees</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-2"></div>
+                                <div class="col-4">
+                                <img src="../IMAGES/IAPOSTER2.jpeg" 
+                                    alt="Phad" 
+                                    class="d-block mx-auto my-auto mt-3" 
+                                    style="width: 100%">
+                                </div>
+                                <div class="col-6 text-light align-content-center mx-auto my-auto ps-3"
+                                     style="font-size:1vw ;">
+                                    <h5 style="font-size: 2vw ;">PHAD</h5>
+                                    <p>Social Cause: Literacy</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-2"></div>
+                                <div class="col-4">
+                                <img src="../IMAGES/IAPOSTER3.png" 
+                                    alt="Pattachitra" 
+                                    class="d-block mx-auto my-auto mt-3" 
+                                    style="width: 100%">
+                                </div>
+                                <div class="col-6 text-light align-content-center mx-auto my-auto ps-3"
+                                    style="font-size: 1vw">
+                                    <h5 style="font-size: 2vw ;">PATTACHITRA</h5>
+                                    <p>Social Cause: Climate Change</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-2"></div>
+                                <div class="col-4">
+                                <img src="../IMAGES/IAPOSTER4.png" 
+                                    alt="Warli" 
+                                    class="d-block mx-auto my-auto mt-3" 
+                                    style="width: 100%">
+                                </div>
+                                <div class="col-6 text-light align-content-center mx-auto my-auto ps-3"
+                                     style="font-size:1vw ;">
+                                    <h5 style="font-size: 2vw ;">WARLI</h5>
+                                    <p>Social Cause: Gender Inequality</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             
-                <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../IMAGES/IAPOSTER4.png" 
-                             alt="warli" 
-                             class="d-block mx-auto" 
-                             style="width:40%">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../IMAGES/IAPOSTER2.png" 
-                             alt="phad" 
-                             class="d-block mx-auto" 
-                             style="width:80%">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../IMAGES/IAPOSTER3.png" 
-                             alt="pattachitra" 
-                             class="d-block mx-auto" 
-                             style="width:40%">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../IMAGES/IAPOSTER1.png" 
-                             alt="kalamkari" 
-                             class="d-block mx-auto" 
-                             style="width:80%">
-                    </div>
-                </div>
-            
-                <!-- Left and right controls/icons -->
-                <button class="carousel-control-prev" 
-                        type="button" 
-                        data-bs-target="#ia" 
-                        data-bs-slide="prev" 
-                        style="width: 10%">
-                            <span class="carousel-control-prev-icon"></span>
-                </button>
-                <button class="carousel-control-next" 
-                        type="button" 
-                        data-bs-target="#ia" 
-                        data-bs-slide="next" 
-                        style="width: 10%">
-                            <span class="carousel-control-next-icon"></span>
-                </button>
-            </div>
-            
-            <!-- indian aesthetics text -->
-            <div class="container-fluid mt-3">
-                <h5>WARLI PHAD PATTACHITRA KALAMKARI</h5>
-                <p>The brand chosen is West Elm.<br>
-                The social causes are gender inequality, Literacy, Climate change and Save Trees.</p>
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" 
+                            type="button" 
+                            data-bs-target="#ia" 
+                            data-bs-slide="prev" 
+                            style="width: 10%">
+                                <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" 
+                            type="button" 
+                            data-bs-target="#ia" 
+                            data-bs-slide="next" 
+                            style="width: 10%">
+                                <span class="carousel-control-next-icon"></span>
+                    </button>
             </div>
     </div>
-
-    <hr>
+    <div class="row m-0 p-0 bg-light">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <hr>
+        </div>
+        <div class="col-4"></div>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br>
 
     <!-- about me -->
     <div id="section2" 
          class="container-fluid bg-light" 
-         style="padding:100px 20px; 
-                color: #1A3650;">
-            <div class="row">
-                <img src="../IMAGES/mypicture2.jpeg" 
-                     class="col-3 P-3">
-                    <div class="col-9">
-                        <h1 class="m-4 mt-2 display-5">
-                            <u>ABOUT ME</u>
+         style="color: #1A3650;
+                width: 100vw;">
+            <div class="row margin">
+                <div class="col-4 p-3 m-auto">
+                <img src="../IMAGES/mypicture2.jpeg"
+                     width="100%">
+                </div>
+                    <div class="col-8 m-auto">
+                        <h1 class="display-5">
+                            <u class="qsize">ABOUT ME</u>
                         </h1>
-                        <div style="background-color:rgb(75, 95, 71);
-                                    width: 75%;" 
-                             class="pb-5 ps-3 pe-3 pt-1">
-                                <p class="text-light pt-5 pb-2 p-2 m-3" >
+                        <div style="background-color:rgb(75, 95, 71);" class="p-3 mb-">
+                                <p class="text-light tsize">
                                     I am a sophomore year student who is passionate about art <br>and creation. My interests include reading, 
                                     watching web-series and socializing.<br> I am an ever-curious and extremely disciplined person.
                                 </p>
                                 <a href="blog.html">
                                     <button type="button" 
-                                            class="ms-4 btn btn-outline-light">
+                                            class="btn btn-outline-light bsize">
                                                 KNOW MORE
                                     </button>
                                 </a>
@@ -411,11 +552,11 @@
     <div class="row ps-3"> 
         <div class="col-6 mx-auto">
             <div class="display-6">
-                <u>EXPERIENCE</u>
+                <u class="qsize">EXPERIENCE</u>
             </div>
             <br>
             <div>
-                <p>
+                <p class="tsize">
                 2019- Freelanced with an art and craft professional for two months.<br>
                 2021- Volunteered at an NGO teaching less-fortunate<br>
                 students for 10 days.<br>
@@ -427,11 +568,11 @@
         </div>
         <div class="col-6 mx-auto">
             <div class="display-6">
-                <u>ACHEIVEMENTS</u>
+                <u class="qsize">ACHEIVEMENTS</u>
             </div>
             <br>
             <div>
-                <p>
+                <p class="tsize">
                 Academics-<br>
                 Freshman year CGPA- 7.9<br>
                 Scored 91% in 10th ICSE and 12th ISC board exams.<br>
@@ -449,11 +590,11 @@
     <div class="row ps-3">
         <div class="col-6 mx-auto">
             <div class="display-6">
-                <u>SKILLS</u>
+                <u class="qsize">SKILLS</u>
             </div>
             <br>
             <div>
-                <p>
+                <p class="tsize">
                 Basics of the following softwares-<br>
                 1. Illustrator<br>
                 2. Photoshop<br>
@@ -468,11 +609,11 @@
         </div>
         <div class="col-6 mx-auto">
             <div class="display-6">
-                <u>EDUCATION</u>
+                <u class="qsize">EDUCATION</u>
             </div>
             <br>
             <div>
-                <p>
+                <p class="tsize">
                 (2007-2021)- Metas of Seventhdays Adventist, Surat. <br>
                 (2021-currently)- ISDI, Atlas Skilltech University. <br>
                 Workshops and Courses-<br>
@@ -490,69 +631,108 @@
     <div id="section3" 
          class="container-fluid text-light" 
          style="background-color: #1A3650; 
-                height: 80vh;">
-            <h1 class="pt-5 p-4 pb-5 mb-4 display-6">
-                <u>CONTACT ME</u>
+                height: 88vh;">
+            <h1 class="p-4 pb-5 mb-2 display-6">
+                <u class="qsize">CONTACT ME</u>
             </h1>
-            <div class="container">
-                <form style="text-align: center;">
-                    <label for="fname">
-                        Name
-                    </label>
-                    <br>
-                    <input type="text" 
-                           id="fname" 
-                           name="firstname" 
-                           placeholder="Your name.." 
-                           class="rounded-3 mb-3 p-2">
-                    <br>
+            <div class="container row">
+                <div class="col-6 width">
+                    <form style="text-align: center;">
+                        <label for="fname" class="lsize">
+                            Name
+                        </label>
+                        <p id="ferror"></p>
+                        <input type="text" 
+                            id="fname" 
+                            name="firstname" 
+                            placeholder="Your name.." 
+                            class="rounded-3 mb-3 p-2 isize">
+                        <br>
 
-                    <label for="email">
-                        Email id
-                    </label>
-                    <br>
-                    <input type="text" 
-                           id="email" 
-                           name="emailid" 
-                           placeholder="Your email id.." 
-                           class="rounded-3 mb-3 p-2">
-                    <br>
+                        <label for="email" class="lsize">
+                            Email id
+                        </label>
+                        <p id="eerror"></p>
+                        <input type="text" 
+                            id="email" 
+                            name="emailid" 
+                            placeholder="Your email id.." 
+                            class="rounded-3 mb-3 p-2 isize">
+                        <br>
 
-                    <label for="subject">
-                        Subject
-                    </label>
-                    <br>
-                    <textarea id="subject" 
-                              name="subject" 
-                              placeholder="Write something.." 
-                              class="rounded-3 mb-3 me-2 ms-3 p-2" 
-                              style="height:180px">
-                    </textarea>
-                    <br>
+                        <label for="subject" class="lsize">
+                            Subject
+                        </label>
+                        <p></p>
+                        <textarea id="subject" 
+                                name="subject" 
+                                placeholder="Write something.." 
+                                class="rounded-3 mb-3 p-2" 
+                                style="height:180px isize">
+                        </textarea>
+                        <br>
 
-                    <button type="button" 
-                            class="btn btn-outline-light">
-                                SUBMIT
-                    </button>
-                </form>
+                        <button type="button" 
+                                class="btn btn-outline-light bsize"
+                                onclick="FullFunction()">
+                                    SUBMIT
+                        </button>
+
+                        <script>
+                            function FullFunction() {
+                                    NameValid()
+                                    EmailValid()
+                                    }
+
+                                function NameValid() {
+                                    let x = document.getElementById("fname").value;
+                                    let text;
+                                    if (!isNaN(x) || x == null || x == " ") {
+                                        text = "Name can't be blank";
+                                    } else {
+                                        text = "Input OK";
+                                    }
+                                    document.getElementById("ferror").innerHTML = text;
+                                    }
+
+                                function EmailValid() {
+                                    let y = document.getElementById("email").value;
+                                    let textnew;
+                                    let atposition = y.indexOf("@"), dotposition = y.lastIndexOf(".")
+                                    if (atposition < 1 || dotposition < atposition + 2 || dotposition + 2 >= y.length) {
+                                        textnew = "Invalid email";
+                                    } else {
+                                        textnew = "Input OK";
+                                    }
+                                    document.getElementById("eerror").innerHTML = textnew;
+                                    }
+                        </script>
+                    </form>
+                </div>
+                <div class="col-6 mx-auto my-auto d-flex flex-wrap align-items-center width p-5">
+                        <a href="https://www.instagram.com/tvishasanghvii/">
+                            <button type="button" class="btn btn-outline-light ms-2 me-2 bsize">
+                                <i class="fa fa-instagram bsize">
+                                </i>
+                                @tvishasanghvii
+                            </button>
+                        </a>
+                        <a href="https://www.linkedin.com/in/tvisha-sanghvi-006399220">
+                            <button type="button" class="btn btn-outline-light m-2 bsize">
+                                <i class="fa fa-linkedin bsize">
+                                </i>
+                                Tvisha Sanghvi
+                            </button>
+                        </a>
+                        <a href="https://www.behance.net/tvishasanghvi/projects">
+                            <button type="button" class="btn btn-outline-light ms-2 me-2 bsize">
+                                <i class="fa fa-behance bsize">
+                                </i>
+                                Tvisha Sanghvi
+                            </button>
+                        </a>
+                </div>
             </div>
-    </div>
-
-    <!-- instagram page -->
-    <div class="row">
-        <div class="col-5"></div>
-            <div class="col-2 p-4">
-                <a href="https://www.instagram.com/tvishasanghvii/">
-                    <button type="button" 
-                            class="btn btn-outline-dark">
-                                <i class="fa fa-instagram" 
-                                   style="font-size: 25px ;">
-                                </i> 
-                        @tvishasanghvii
-                    </button>
-                </a>
-            </div>
-        <div class="col-5"></div>
     </div>
 </body>
 </html>
